@@ -1,2 +1,2 @@
-curl -X POST http://localhost:5000/customer/login -c ../cookies.txt -H "Content-Type: application/json" -d "{\"username\":\"atharva\",\"password\":\"pass123\"}"
-{"message":"Invalid Login. Check username and password"}
+curl -X POST http://localhost:5000/customer/login -c cookies.txt -H "Content-Type: application/json" -d "{\"username\":\"atharva\",\"password\":\"pass123\"}"
+{"message":"User successfully logged in"}
