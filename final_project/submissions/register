@@ -1,0 +1,12 @@
+curl -X POST http://localhost:5000/customer/register -H "Content-Type: application/json" -d "{\"username\":\"atharva\",\"password\":\"pass123\"}"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /customer/register</pre>
+</body>
+</html>
+
